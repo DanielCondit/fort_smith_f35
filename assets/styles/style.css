@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../images/f35_3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	/*background-position: 50% 20%;*/
+}
+
+div {
+	position: absolute;
+	text-align: center;
+	color: white;
+	bottom: 0;
+	width: 100%;
+}
+
+div img {
+	width: 100%;
+}
+div a {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 700px) {
+	body {
+	background: url("../images/f35_3.jpg") no-repeat center center fixed;
+	background-color: black;
+	}
+
+	.foot {
+	top: 0;;
+	}
+}
